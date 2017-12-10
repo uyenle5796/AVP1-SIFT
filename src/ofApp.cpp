@@ -47,17 +47,19 @@ void ofApp::setup() {
     findMat = toCv(findImg);
     
     //SIFT Feature Detector object
-    SiftFeatureDetector detector(100000); //2000 is number of keypoints to find
+    //this object detects features in both images and find the matching keypoints.
+    SiftFeatureDetector detector(5000); //5000 is number of keypoints to find
 
-    // KeyPoint vectors to store keypoints detected per image
+    // KeyPoint vectors to store keypoints detected for both images
     vector<KeyPoint> findKeypoints, fieldKeypoints;
     
     // run the detector on each image
     detector.detect(fieldMat, findKeypoints);
     detector.detect(findMat, fieldKeypoints);
     
-    //SIFT descriptor object
-    SiftDescriptorExtractor extractor; //ERROR: Variable type 'SiftDescriptorExtractor' (aka 'cv::SIFT') is an abstract class
+    //SIFT Descriptor object
+    //extracts the features in both images
+    SiftDescriptorExtractor extractor;
     
     //run descriptor
     extractor.compute(findMat, findKeypoints, findDescriptors);
@@ -102,8 +104,7 @@ void ofApp::draw(){
     
     ofBackground(0);
     
-    // draw both cropped and original images side by side
-    //with matching points and edges
+    // draw both images with matching points and edges
     matchImg.draw(0,0);
     
 }
