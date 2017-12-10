@@ -17,7 +17,7 @@
  In this program, I've chosen to train OpenCV to look for the text 'Punch' in the original image of Covent Garden.
  ----------------
  Credits:
- - Image from Google https://i.pinimg.com/736x/10/05/22/100522600659b975cba50e4a3a508b60--london-covent-garden-covent-garden-market.jpg
+ - Image from Google
  - SIFT Implementation Tutotials:
         http://www.tylerhenry.com/sift-implementation-in-openframeworks-part-1/
         http://www.tylerhenry.com/sift-implementation-in-openframeworks-part-2/
@@ -30,12 +30,12 @@
 void ofApp::setup() {
     
     //Load the original image (called "train" in OpenCV)
-    findImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/goldsmiths-text-2.jpg");
+    findImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/neals-yard-text.jpg");
     
     //Load the cropped image that is used to train OpenCV (called "query" in OpenCV)
     //This image is known as the 'feature description' of the original image
     //Following the tutorial, I've chosen this text because of the high contrast and clear edges which will make keypoints detection easier.
-    fieldImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/Richard-Hoggart-Building_411.jpg");
+    fieldImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/neals-yard-remedies.jpg");
     
     
     // convert images to grayscale for SIFT
@@ -86,7 +86,7 @@ void ofApp::setup() {
     // drawMatches() displays the images side by side
     // with coloured circles at each keypoint and lines connecting the matched keypoints.
     // then it draws into Mat.
-    drawMatches(findMat, findKeypoints, fieldMat, fieldKeypoints, matches, matchMat, Scalar::all(-1), Scalar::all(170), vector<char>(), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+    drawMatches(findMat, findKeypoints, fieldMat, fieldKeypoints, matches, matchMat);
 
     toOf(matchMat, matchImg); //wraps matchMat to matchImg
 
