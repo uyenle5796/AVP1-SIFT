@@ -1,2 +1,2 @@
-ofxCv
+ofxCv-stable
 ofxOpenCv

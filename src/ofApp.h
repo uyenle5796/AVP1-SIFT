@@ -8,10 +8,11 @@
 
 //include non-free OpenCV modules
 #include "opencv2/nonfree/nonfree.hpp"
-#include "opencv2/nonfree/features2d.hpp>"
+#include "opencv2/xfeatures2d/nonfree.hpp"
 
 using namespace cv;
 using namespace ofxCv;
+
 
 class ofApp : public ofBaseApp{
 
@@ -37,8 +38,15 @@ class ofApp : public ofBaseApp{
     ofImage matchImg;
     
     //OpenCV's matrix class - known as 'Mat'
-    Mat fieldMat, findMat;
-    Mat findDescriptors, fieldDescriptors; // matrices to hold all features per keypoint in image
+    Mat fieldMat;
+    Mat findMat;
+    
+    // visualize matches in new image-matrix
+    Mat matchMat;
+    
+    // matrices to hold all features per keypoint in image
+    Mat findDescriptors;
+    Mat fieldDescriptors;
     // i.e. in each matrix, row 'i' is the list of features for keypoint 'i'
 
 };

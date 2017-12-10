@@ -9,6 +9,65 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>CA7A1C6AF889620F02AFC208</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>xfeatures2d.hpp</string>
+				<key>path</key>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/xfeatures2d.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0723670E9A5AD7B5FA1B252C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>nonfree.hpp</string>
+				<key>path</key>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/xfeatures2d/nonfree.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6DF19BE02580BC5810BF3A17</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>DEC0021AD16770BAF999CF86</string>
+					<string>0723670E9A5AD7B5FA1B252C</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>xfeatures2d</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>DEC0021AD16770BAF999CF86</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>cuda.hpp</string>
+				<key>path</key>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/xfeatures2d/cuda.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>6C39232BB41158088BE9F902</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -2639,6 +2698,8 @@
 					<string>0478E60892BF4C0731AE0763</string>
 					<string>C58CC92A5283B95AA31D50FB</string>
 					<string>38D119387412EF71F9FAA033</string>
+					<string>6DF19BE02580BC5810BF3A17</string>
+					<string>CA7A1C6AF889620F02AFC208</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3237,14 +3298,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FBD9E49E816E1EA06581C15A</key>
+			<key>C70CE246C2511C02E677276B</key>
 			<dict>
 				<key>fileRef</key>
-				<string>09FABA0577FDEAA691316499</string>
+				<string>459A51BB11CBED2941507D43</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>09FABA0577FDEAA691316499</key>
+			<key>459A51BB11CBED2941507D43</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3255,18 +3316,18 @@
 				<key>name</key>
 				<string>Wrappers.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Wrappers.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Wrappers.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>23050876C66A1C6E5950BE53</key>
+			<key>DE278B4AE17EC42F1F051D17</key>
 			<dict>
 				<key>fileRef</key>
-				<string>90E3CDC9EEAD8862B6985AD9</string>
+				<string>73E315001894C193F524B1E0</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>90E3CDC9EEAD8862B6985AD9</key>
+			<key>73E315001894C193F524B1E0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3277,18 +3338,18 @@
 				<key>name</key>
 				<string>Utilities.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Utilities.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Utilities.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E328BC49939A62EA262911CD</key>
+			<key>003F77322B108462A4FA99B1</key>
 			<dict>
 				<key>fileRef</key>
-				<string>6AD38E980A50DD454EBDF623</string>
+				<string>05AE526CE30D6A33C7A53DD3</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>6AD38E980A50DD454EBDF623</key>
+			<key>05AE526CE30D6A33C7A53DD3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3299,18 +3360,18 @@
 				<key>name</key>
 				<string>Tracker.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Tracker.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Tracker.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E513707FCBEA116DC22364B8</key>
+			<key>9E4B65FEB095FB7604D872E0</key>
 			<dict>
 				<key>fileRef</key>
-				<string>B7090551D92704A9ECF633D1</string>
+				<string>29CFE9BA34B627E35874E268</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>B7090551D92704A9ECF633D1</key>
+			<key>29CFE9BA34B627E35874E268</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3321,18 +3382,18 @@
 				<key>name</key>
 				<string>RunningBackground.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/RunningBackground.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>473D538F85708FE9AA7BA24E</key>
+			<key>AC718D1CC78CA940D099B55E</key>
 			<dict>
 				<key>fileRef</key>
-				<string>CF74AFA3B2664A603D5BBFBE</string>
+				<string>A9D27DDD38A5091FAF2B0ACE</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>CF74AFA3B2664A603D5BBFBE</key>
+			<key>A9D27DDD38A5091FAF2B0ACE</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3343,18 +3404,18 @@
 				<key>name</key>
 				<string>ObjectFinder.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/ObjectFinder.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C4B5DB856BFBD955B0C3D5CD</key>
+			<key>E7F2A2A5ABFF5D73620FB428</key>
 			<dict>
 				<key>fileRef</key>
-				<string>0B7D93B499B2BFE21BDEC212</string>
+				<string>D9BEF74DABDD8B72CDE9BC3D</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>0B7D93B499B2BFE21BDEC212</key>
+			<key>D9BEF74DABDD8B72CDE9BC3D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3365,18 +3426,18 @@
 				<key>name</key>
 				<string>Kalman.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Kalman.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Kalman.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0F14A4B1D71B2E8BDAC42CAD</key>
+			<key>86E56EF729A003D8B51CC016</key>
 			<dict>
 				<key>fileRef</key>
-				<string>570DB05D409EDA349E07F6E6</string>
+				<string>F476362AD18DB6ECB7B605C6</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>570DB05D409EDA349E07F6E6</key>
+			<key>F476362AD18DB6ECB7B605C6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3387,18 +3448,18 @@
 				<key>name</key>
 				<string>Helpers.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Helpers.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Helpers.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>50CD7C84DDE455EF55E9DC34</key>
+			<key>C323CD0D342FD75E41E46BF0</key>
 			<dict>
 				<key>fileRef</key>
-				<string>8C8F64B9DEAF5D27A1D04EFE</string>
+				<string>F1867DAE3C75751F3924536D</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>8C8F64B9DEAF5D27A1D04EFE</key>
+			<key>F1867DAE3C75751F3924536D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3409,18 +3470,18 @@
 				<key>name</key>
 				<string>Flow.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Flow.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Flow.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>023B64259CF470B07A665C24</key>
+			<key>01D463014398F3CC29155FC6</key>
 			<dict>
 				<key>fileRef</key>
-				<string>67728007BE936FC411D4DE74</string>
+				<string>B0CF57A1B1AADE4DB8A47854</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>67728007BE936FC411D4DE74</key>
+			<key>B0CF57A1B1AADE4DB8A47854</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3431,18 +3492,18 @@
 				<key>name</key>
 				<string>Distance.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Distance.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Distance.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D500185DAE5269FD1BF942A1</key>
+			<key>74CA890BEC9B735461E26047</key>
 			<dict>
 				<key>fileRef</key>
-				<string>A6BFE88E4920DB09F4B5548D</string>
+				<string>DF56E5E695F39EFE6EF12A22</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>A6BFE88E4920DB09F4B5548D</key>
+			<key>DF56E5E695F39EFE6EF12A22</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3453,25 +3514,25 @@
 				<key>name</key>
 				<string>ContourFinder.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/ContourFinder.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D240A1DD1AE9F8E81BDBCD2B</key>
+			<key>D255CCD098B07131665DE480</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>CD6AA74CCF06A46F39AEEC5D</string>
-					<string>A6BFE88E4920DB09F4B5548D</string>
-					<string>67728007BE936FC411D4DE74</string>
-					<string>8C8F64B9DEAF5D27A1D04EFE</string>
-					<string>570DB05D409EDA349E07F6E6</string>
-					<string>0B7D93B499B2BFE21BDEC212</string>
-					<string>CF74AFA3B2664A603D5BBFBE</string>
-					<string>B7090551D92704A9ECF633D1</string>
-					<string>6AD38E980A50DD454EBDF623</string>
-					<string>90E3CDC9EEAD8862B6985AD9</string>
-					<string>09FABA0577FDEAA691316499</string>
+					<string>2CCE59C1B3F75BAD478FFE97</string>
+					<string>DF56E5E695F39EFE6EF12A22</string>
+					<string>B0CF57A1B1AADE4DB8A47854</string>
+					<string>F1867DAE3C75751F3924536D</string>
+					<string>F476362AD18DB6ECB7B605C6</string>
+					<string>D9BEF74DABDD8B72CDE9BC3D</string>
+					<string>A9D27DDD38A5091FAF2B0ACE</string>
+					<string>29CFE9BA34B627E35874E268</string>
+					<string>05AE526CE30D6A33C7A53DD3</string>
+					<string>73E315001894C193F524B1E0</string>
+					<string>459A51BB11CBED2941507D43</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3480,14 +3541,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>859DE06D8FE093EFCCAB1122</key>
+			<key>5E17877CD436FEC414CA319E</key>
 			<dict>
 				<key>fileRef</key>
-				<string>CD6AA74CCF06A46F39AEEC5D</string>
+				<string>2CCE59C1B3F75BAD478FFE97</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>CD6AA74CCF06A46F39AEEC5D</key>
+			<key>2CCE59C1B3F75BAD478FFE97</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3498,11 +3559,11 @@
 				<key>name</key>
 				<string>Calibration.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/src/Calibration.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/src/Calibration.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B30013158F206C6E04C5C5D5</key>
+			<key>2204F078532E3136D2AF493A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3513,11 +3574,11 @@
 				<key>name</key>
 				<string>Wrappers.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Wrappers.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C5C2A4C9427270A4FA8B9E3E</key>
+			<key>5534DFF49BFEE8623DEA8469</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3528,11 +3589,11 @@
 				<key>name</key>
 				<string>Utilities.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Utilities.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A953CBE4F63F8757049BE3B5</key>
+			<key>5431B34491F03C6789D2C944</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3543,11 +3604,11 @@
 				<key>name</key>
 				<string>Tracker.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Tracker.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Tracker.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C92952BC4CCDD14AF8C605AD</key>
+			<key>CDE627778AFDFA1344EA4652</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3558,11 +3619,11 @@
 				<key>name</key>
 				<string>RunningBackground.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/RunningBackground.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9FA11B8325AC4E3D867441D3</key>
+			<key>7EBC276B82377C5FE43EC66A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3573,11 +3634,11 @@
 				<key>name</key>
 				<string>ObjectFinder.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ObjectFinder.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/ObjectFinder.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0DE212548F75BC5FED73B139</key>
+			<key>9EEFF36CF9998364E6B8973A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3588,11 +3649,11 @@
 				<key>name</key>
 				<string>Kalman.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Kalman.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Kalman.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>47B2442782BC88A4FF342536</key>
+			<key>7E425DF15402D46189C38E58</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3603,11 +3664,11 @@
 				<key>name</key>
 				<string>Helpers.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Helpers.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>79C96707DA653E314C00ADB4</key>
+			<key>B3785EA49E584AAEEA24DE35</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3618,11 +3679,11 @@
 				<key>name</key>
 				<string>Flow.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Flow.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2DF8B7517622A9B82CD8AFE7</key>
+			<key>5D7ED78AFB3FF82B15455F98</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3633,11 +3694,11 @@
 				<key>name</key>
 				<string>Distance.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Distance.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Distance.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7D6966154C27899DD3AF3C72</key>
+			<key>D36F9F717F99151BB7A9BAC1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3648,25 +3709,25 @@
 				<key>name</key>
 				<string>ContourFinder.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/ContourFinder.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4EB038C7DF921AA8A4070286</key>
+			<key>22E9693B24C067319CAF6511</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>EC30D595D5B2762AAB06D314</string>
-					<string>7D6966154C27899DD3AF3C72</string>
-					<string>2DF8B7517622A9B82CD8AFE7</string>
-					<string>79C96707DA653E314C00ADB4</string>
-					<string>47B2442782BC88A4FF342536</string>
-					<string>0DE212548F75BC5FED73B139</string>
-					<string>9FA11B8325AC4E3D867441D3</string>
-					<string>C92952BC4CCDD14AF8C605AD</string>
-					<string>A953CBE4F63F8757049BE3B5</string>
-					<string>C5C2A4C9427270A4FA8B9E3E</string>
-					<string>B30013158F206C6E04C5C5D5</string>
+					<string>51D26A73F1CA30CCA4E11D28</string>
+					<string>D36F9F717F99151BB7A9BAC1</string>
+					<string>5D7ED78AFB3FF82B15455F98</string>
+					<string>B3785EA49E584AAEEA24DE35</string>
+					<string>7E425DF15402D46189C38E58</string>
+					<string>9EEFF36CF9998364E6B8973A</string>
+					<string>7EBC276B82377C5FE43EC66A</string>
+					<string>CDE627778AFDFA1344EA4652</string>
+					<string>5431B34491F03C6789D2C944</string>
+					<string>5534DFF49BFEE8623DEA8469</string>
+					<string>2204F078532E3136D2AF493A</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3675,11 +3736,11 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>13C72B31738CA9F68523CB1C</key>
+			<key>6F3D6431E06A49AC0512D590</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>4EB038C7DF921AA8A4070286</string>
+					<string>22E9693B24C067319CAF6511</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3688,12 +3749,12 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>85961BEC127E2550AA7756C9</key>
+			<key>1E1F89FD06380C89C5B8F7DE</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>13C72B31738CA9F68523CB1C</string>
-					<string>D240A1DD1AE9F8E81BDBCD2B</string>
+					<string>6F3D6431E06A49AC0512D590</string>
+					<string>D255CCD098B07131665DE480</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3702,7 +3763,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>EC30D595D5B2762AAB06D314</key>
+			<key>51D26A73F1CA30CCA4E11D28</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3713,18 +3774,18 @@
 				<key>name</key>
 				<string>Calibration.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include/ofxCv/Calibration.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>AB52B7F234EEB56622C54B39</key>
+			<key>013CCED8E44259CD5E43FC98</key>
 			<dict>
 				<key>fileRef</key>
-				<string>2A818ABFAABA30AE305FBF3D</string>
+				<string>49362F4D00BA175A1013B69B</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>2A818ABFAABA30AE305FBF3D</key>
+			<key>49362F4D00BA175A1013B69B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3735,16 +3796,16 @@
 				<key>name</key>
 				<string>fdog.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/src/fdog.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/src/fdog.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>37CF39B443ACB0F86B1351ED</key>
+			<key>3F156991C9E78C1450AA9EC1</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>B953917123B47E7AD63A0044</string>
-					<string>2A818ABFAABA30AE305FBF3D</string>
+					<string>CD50BAE507B4843200C8B383</string>
+					<string>49362F4D00BA175A1013B69B</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3753,14 +3814,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>11030E15A53061B3A3B0C3C6</key>
+			<key>20C21E751076FA62C6EF6792</key>
 			<dict>
 				<key>fileRef</key>
-				<string>B953917123B47E7AD63A0044</string>
+				<string>CD50BAE507B4843200C8B383</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>B953917123B47E7AD63A0044</key>
+			<key>CD50BAE507B4843200C8B383</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -3771,11 +3832,11 @@
 				<key>name</key>
 				<string>ETF.cpp</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/src/ETF.cpp</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/src/ETF.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6A2D924D436C6C952BA4E4ED</key>
+			<key>778CAF22D6EDD899F17FF781</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3786,11 +3847,11 @@
 				<key>name</key>
 				<string>myvec.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD/myvec.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD/myvec.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F4992EA269B61B4CD0D8475E</key>
+			<key>0B7367A557E4E59E7AEB278D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3801,11 +3862,11 @@
 				<key>name</key>
 				<string>imatrix.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD/imatrix.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD/imatrix.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>662009E46C5FBFB479CF0CD5</key>
+			<key>9DAE9B89C2C9835F8F9F0427</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3816,18 +3877,18 @@
 				<key>name</key>
 				<string>fdog.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD/fdog.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD/fdog.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FEA273413D5AFD9607F56ABE</key>
+			<key>51B748A4E875AFEC879495E8</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>B8D7EEEF620F2BB1FED7BB34</string>
-					<string>662009E46C5FBFB479CF0CD5</string>
-					<string>F4992EA269B61B4CD0D8475E</string>
-					<string>6A2D924D436C6C952BA4E4ED</string>
+					<string>4E941FDEF0DD70A75CD25707</string>
+					<string>9DAE9B89C2C9835F8F9F0427</string>
+					<string>0B7367A557E4E59E7AEB278D</string>
+					<string>778CAF22D6EDD899F17FF781</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3836,11 +3897,11 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>45591C11B7434576DF6996B4</key>
+			<key>69CA50A57D5D79C0C355B8F7</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>FEA273413D5AFD9607F56ABE</string>
+					<string>51B748A4E875AFEC879495E8</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3849,12 +3910,12 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>7CC1E591490DB083FB916812</key>
+			<key>676DD8B7A1AA3F1E2F56B36F</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>45591C11B7434576DF6996B4</string>
-					<string>37CF39B443ACB0F86B1351ED</string>
+					<string>69CA50A57D5D79C0C355B8F7</string>
+					<string>3F156991C9E78C1450AA9EC1</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3863,12 +3924,12 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>90D509C72729D1998E28A98F</key>
+			<key>38621E63344BC2A56FC18A93</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>7CC1E591490DB083FB916812</string>
-					<string>85961BEC127E2550AA7756C9</string>
+					<string>676DD8B7A1AA3F1E2F56B36F</string>
+					<string>1E1F89FD06380C89C5B8F7DE</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3877,7 +3938,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>B8D7EEEF620F2BB1FED7BB34</key>
+			<key>4E941FDEF0DD70A75CD25707</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3888,15 +3949,15 @@
 				<key>name</key>
 				<string>ETF.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD/ETF.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD/ETF.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>873F2BD1A608B2DE7BC81AFB</key>
+			<key>8D9B3930D78ABCEB457133DA</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>DE6C52A4CDE92B0390EEBEBA</string>
+					<string>798ABFF67A0138433DB5934D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -3905,21 +3966,21 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>6025FAF6414C2CA589764D26</key>
+			<key>2226360524A0A940AAB50A81</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>873F2BD1A608B2DE7BC81AFB</string>
-					<string>90D509C72729D1998E28A98F</string>
+					<string>8D9B3930D78ABCEB457133DA</string>
+					<string>38621E63344BC2A56FC18A93</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>ofxCv</string>
+				<string>ofxCv-stable</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>DE6C52A4CDE92B0390EEBEBA</key>
+			<key>798ABFF67A0138433DB5934D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -3930,7 +3991,7 @@
 				<key>name</key>
 				<string>ofxCv.h</string>
 				<key>path</key>
-				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/src/ofxCv.h</string>
+				<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/src/ofxCv.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3949,7 +4010,7 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>6025FAF6414C2CA589764D26</string>
+					<string>2226360524A0A940AAB50A81</string>
 					<string>A0B90D3B0ADB9C1716816714</string>
 				</array>
 				<key>isa</key>
@@ -4109,9 +4170,10 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/src</string>
+						<string>src</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/src</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include</string>
@@ -4138,6 +4200,7 @@
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videostab</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/xfeatures2d</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/emscripten</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx</string>
@@ -4205,9 +4268,10 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/src</string>
+						<string>src</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/src</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include</string>
@@ -4234,6 +4298,7 @@
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videostab</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/xfeatures2d</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/emscripten</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx</string>
@@ -4295,19 +4360,19 @@
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>11030E15A53061B3A3B0C3C6</string>
-					<string>AB52B7F234EEB56622C54B39</string>
-					<string>859DE06D8FE093EFCCAB1122</string>
-					<string>D500185DAE5269FD1BF942A1</string>
-					<string>023B64259CF470B07A665C24</string>
-					<string>50CD7C84DDE455EF55E9DC34</string>
-					<string>0F14A4B1D71B2E8BDAC42CAD</string>
-					<string>C4B5DB856BFBD955B0C3D5CD</string>
-					<string>473D538F85708FE9AA7BA24E</string>
-					<string>E513707FCBEA116DC22364B8</string>
-					<string>E328BC49939A62EA262911CD</string>
-					<string>23050876C66A1C6E5950BE53</string>
-					<string>FBD9E49E816E1EA06581C15A</string>
+					<string>20C21E751076FA62C6EF6792</string>
+					<string>013CCED8E44259CD5E43FC98</string>
+					<string>5E17877CD436FEC414CA319E</string>
+					<string>74CA890BEC9B735461E26047</string>
+					<string>01D463014398F3CC29155FC6</string>
+					<string>C323CD0D342FD75E41E46BF0</string>
+					<string>86E56EF729A003D8B51CC016</string>
+					<string>E7F2A2A5ABFF5D73620FB428</string>
+					<string>AC718D1CC78CA940D099B55E</string>
+					<string>9E4B65FEB095FB7604D872E0</string>
+					<string>003F77322B108462A4FA99B1</string>
+					<string>DE278B4AE17EC42F1F051D17</string>
+					<string>C70CE246C2511C02E677276B</string>
 					<string>10C3BF349A377BCDBE89D0C1</string>
 					<string>325424CDD8159DEC38BB58A4</string>
 					<string>5204C2D45E8B53CF3CB1A5F9</string>
@@ -4403,9 +4468,10 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/src</string>
+						<string>src</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/src</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include</string>
@@ -4432,6 +4498,7 @@
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videostab</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/xfeatures2d</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/emscripten</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx</string>
@@ -4489,9 +4556,10 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/ofxCv/include</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
-						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv/src</string>
+						<string>src</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/ofxCv/include</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/libs/CLD/include/CLD</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxCv-stable/src</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include</string>
@@ -4518,6 +4586,7 @@
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videostab</string>
+						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/xfeatures2d</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/emscripten</string>
 						<string>../../../../of_v0.9.8_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx</string>
