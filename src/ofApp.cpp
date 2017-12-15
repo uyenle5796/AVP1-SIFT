@@ -30,13 +30,13 @@
 void ofApp::setup() {
     
     //Load the original image (called "train" in OpenCV)
-    findImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/neals-yard-text.jpg");
-    
+    fieldImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/neals-yard-remedies.jpg");
+
     //Load the cropped image that is used to train OpenCV (called "query" in OpenCV)
     //This image is known as the 'feature description' of the original image
     //Following the tutorial, I've chosen this text because of the high contrast and clear edges which will make keypoints detection easier.
-    fieldImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/neals-yard-remedies.jpg");
-    
+    findImg.load("/Users/uyenle/Desktop/AudioVisual/AVPCoursework_tle004/AVP1-SIFT/bin/data/neals-yard-text.jpg");
+
     
     // convert images to grayscale for SIFT
     fieldImg.setImageType(OF_IMAGE_GRAYSCALE);
@@ -48,14 +48,14 @@ void ofApp::setup() {
     
     //SIFT Feature Detector object
     //this object detects features in both images and find the matching keypoints.
-    SiftFeatureDetector detector(5000); //5000 is number of keypoints to find
+    SiftFeatureDetector detector(1000); //1000 is number of keypoints to find
 
     // KeyPoint vectors to store keypoints detected for both images
     vector<KeyPoint> findKeypoints, fieldKeypoints;
     
     // run the detector on each image
-    detector.detect(fieldMat, findKeypoints);
-    detector.detect(findMat, fieldKeypoints);
+    detector.detect(fieldMat, fieldKeypoints);
+    detector.detect(findMat, findKeypoints);
     
     //SIFT Descriptor object
     //extracts the features in both images
@@ -67,7 +67,7 @@ void ofApp::setup() {
     
     // Brute-force Descriptor Matcher object
     // For each descriptor in the first set, this matcher finds the closest descriptor in the second set by trying each one.
-    BFMatcher matcher(NORM_L1, true);
+    BFMatcher matcher(NORM_L2, true);
     // normType is NORM_L1: specifies the distance measurement to be used
     // crossMatch is true
     // reference: https://docs.opencv.org/2.4/modules/features2d/doc/common_interfaces_of_descriptor_matchers.html
