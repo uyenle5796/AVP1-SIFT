@@ -15,7 +15,7 @@ Simple implementation of Scale Invariant Feature Transform (SIFT) with OpenCV an
 1. Download and install Xcode and openFrameworks.
 2. Clone ofxCv/stable to your openFrameworks/addons/ folder.
 3. Make sure 'ofxOpenCV' and 'ofxCv' are in openFrameworks/addons/.
-4. Open and compile the program in Xcode.
+4. Open and compile `AVP1-SIFT.xcodeproj` in Xcode.
 
 <br>
 
